@@ -1,0 +1,13 @@
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+players = {}
+
+@app.route("/save", methods=["POST"])
+def save():
+    data = request.json
+    players[data["name"]] = data["score"]
+    return jsonify({"status": "saved"})
+
+app.run()
