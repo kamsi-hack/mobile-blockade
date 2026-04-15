@@ -1,0 +1,12 @@
+using UnityEngine;
+
+public class KillAnimation : MonoBehaviour
+{
+    public Animator animator;
+
+    public void Die()
+    {
+        animator.SetTrigger("Die");
+        Destroy(gameObject, 3f);
+    }
+}
