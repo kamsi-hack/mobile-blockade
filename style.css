@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 40px;
+    background: linear-gradient(to right, #1e3a8a, #9333ea);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.download {
+    margin: 40px;
+}
+
+.btn {
+    padding: 15px 30px;
+    background: #22c55e;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: #16a34a;
+}
+
+.leaderboard {
+    margin-top: 50px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    background: #1e293b;
+    margin: 5px;
+    border-radius: 5px;
+}
